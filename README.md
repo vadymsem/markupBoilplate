@@ -1,6 +1,6 @@
 # markupBoilplate
-# created by Vadym Semenets 
-# web_developer at UranCompany
+## created by Vadym Semenets
+## web_developer at UranCompany
 
 Welcome to HTMLBoilplate page!
 
