@@ -20,7 +20,7 @@ machine in order to start to work!
   bower install
 ```
 
-This command will installed you all packages for developing frontend. It has jquery library on default. All next packages 
+This command will installed all packages for developing frontend. It has jquery library on default. All next packages 
 you will need you might to install by command:
 
 ```
