@@ -46,7 +46,7 @@ ENJOY!
 │   ├── img
 │   └── index.html
 |
-├── app
+├── src
 │   ├── img
 │   ├── js
 |   |   └── app.js 
@@ -66,3 +66,5 @@ ENJOY!
 ├── package.json
 └── .gitignore
 ```
+
+The project includes 2 folders only. There are src and dist folders. You will work in src folder only. dist folder contains compiled and minified code you had written in files from src folder. Compilling, minification, image compression and other tasks executes our gulp runner.
