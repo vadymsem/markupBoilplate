@@ -32,3 +32,36 @@ To run your project on localhost you need to run gulp command. Let's go!
   gulp
 ```
 ENJOY!
+
+
+-----------------------------------------------------------------------------------------------------------
+
+        ###STRUCTURE OF THE PROJECT
+
+├── dist
+│   ├── css
+│   │   └── main.css
+│   ├── js
+│   │   └── main.js
+│   ├── img
+│   └── index.html
+|
+├── app
+│   ├── img
+│   ├── js
+|   |   └── app.js 
+|   |   └── main.js  // includes imports of all .js files from js catalog
+│   ├── style
+|   |     └── base
+|   |     |     └── _reset.scss
+|   |     └── main.scss // includes imports of all .scss files from style catalog
+│   ├── partials
+|   |     └── _header.html
+|   |     └── _footer.html
+│   └── index.html
+|
+├── bower_components
+├── node_modules
+├── gulpfile.js
+├── package.json
+└── .gitignore
