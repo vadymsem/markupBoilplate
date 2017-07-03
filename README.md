@@ -1,6 +1,6 @@
 # markupBoilplate
 ### created by Vadym Semenets
-### web_developer at UranCompany
+### FRONTEND WEB DEVELOPER at UranCompany
 
 Welcome to HTMLBoilplate page!
 
