@@ -102,8 +102,8 @@ gulp.task('image:build', function () {
 });
 
 gulp.task('fonts:build', function() {
-    gulp.src(path.src.fonts)
-    .pipe(gulp.dest(path.build.fonts))
+    gulp.src('./bower_components/Ionicons/fonts/*.{eot,svg,ttf,woff,woff2}')
+    .pipe(gulp.dest(path.build.fonts));
 });
 
 
