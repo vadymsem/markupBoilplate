@@ -102,7 +102,7 @@ gulp.task('image:build', function () {
 });
 
 gulp.task('fonts:build', function() {
-    gulp.src('./bower_components/Ionicons/fonts/*.{eot,svg,ttf,woff,woff2}')
+    gulp.src(['./bower_components/font-awesome/fonts/*.{eot,svg,ttf,woff,woff2}', './bower_components/bootstrap/fonts/*.{eot,svg,ttf,woff,woff2}'])
     .pipe(gulp.dest(path.build.fonts));
 });
 
