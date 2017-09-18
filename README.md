@@ -1,6 +1,5 @@
 # markupBoilplate
 ### created by Vadym Semenets
-### FRONTEND WEB DEVELOPER at UranCompany
 
 Welcome to HTMLBoilplate page!
 
@@ -38,11 +37,11 @@ ENJOY!
   STRUCTURE OF THE PROJECT
       
 ```
-├── dist
+├── dist   // distribution catalog which is the result of compiling
 │   ├── css
-│   │   └── main.css
+│   │   └── main.css  // contains compiled and minified css code from all .scss files of src folder
 │   ├── js
-│   │   └── main.js
+│   │   └── main.js   // contains minified javascript code from all .js files of src folder
 │   ├── img
 │   └── index.html
 |
@@ -53,7 +52,7 @@ ENJOY!
 |   |   └── main.js  // includes imports of all .js files from js catalog
 │   ├── style
 |   |     └── base
-|   |     |     └── _reset.scss
+|   |     |     └── _reset.scss  // common file for basic html styles.
 |   |     └── main.scss // includes imports of all .scss files from style catalog
 │   ├── partials
 |   |     └── _header.html
